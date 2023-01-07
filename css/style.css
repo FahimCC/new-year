@@ -16,7 +16,9 @@
 
 .banner {
 	background-image: url(../images/banner/banner1.png);
-	padding: 216px 230px 364px 845px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 216px 200px 364px 845px;
 	text-align: right;
 }
 .banner-title h1 {
@@ -30,4 +32,33 @@
 	font-size: 16px;
 	line-height: 26px;
 	margin-bottom: 20px;
+}
+
+/* failure section */
+
+.container {
+	margin: 0 200px;
+}
+.failure {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	gap: 87px;
+}
+.failure-image img {
+	height: 400px;
+}
+.failure-description {
+	margin-top: 70px;
+}
+.failure-title h3 {
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 24px;
+}
+.failure-info p,
+.failure ul li {
+	font-size: 16px;
+	color: #444343;
+	margin-bottom: 10px;
 }
