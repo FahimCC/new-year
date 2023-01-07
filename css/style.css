@@ -40,16 +40,13 @@
 	margin: 0 200px;
 }
 .failure {
-	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	gap: 87px;
 }
-.failure-image img {
-	height: 400px;
-}
+
 .failure-description {
-	margin-top: 70px;
+	margin-top: 100px;
 }
 .failure-title h3 {
 	font-weight: 700;
@@ -61,4 +58,30 @@
 	font-size: 16px;
 	color: #444343;
 	margin-bottom: 10px;
+}
+
+/* plan section */
+
+.my-plans {
+	margin-top: 130px;
+	text-align: center;
+}
+.my-plans h1 {
+	margin-bottom: 50px;
+	font-weight: 700;
+	font-size: 40px;
+}
+.plans {
+	display: flex;
+	justify-content: space-between;
+}
+.plan-title h4 {
+	font-weight: 700;
+	font-size: 30px;
+	margin: 15px;
+}
+.plant-info p {
+	font-weight: 500;
+	font-size: 25px;
+	color: #737272;
 }
