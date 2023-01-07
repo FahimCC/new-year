@@ -85,3 +85,32 @@
 	font-size: 25px;
 	color: #737272;
 }
+
+/* mindset section */
+
+.mindset {
+	margin-top: 130px;
+	width: 100%;
+}
+.mindset-image {
+	width: 100%;
+	background-image: url(../images/gradient1.png), url(../images/watch.png);
+	background-size: contain, cover;
+	background-repeat: no-repeat;
+}
+.mindset-title h3 {
+	font-weight: 700;
+	font-size: 40px;
+	padding: 50px 0 20px 60px;
+	color: #fff;
+}
+.secondary-btn {
+	padding: 20px 26px;
+	color: #f15b22;
+	background-color: #fff;
+	border-radius: 5px;
+	border: 0;
+	font-weight: 400;
+	margin-left: 60px;
+	margin-bottom: 50px;
+}
