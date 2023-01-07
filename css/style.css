@@ -39,22 +39,27 @@
 .container {
 	margin: 0 200px;
 }
-.failure {
+.failure,
+.success {
 	display: flex;
 	align-items: center;
 	gap: 87px;
 }
 
-.failure-description {
+.failure-description,
+.success-description {
 	margin-top: 100px;
 }
-.failure-title h3 {
+.failure-title h3,
+.success-title h3 {
 	font-weight: 700;
 	font-size: 40px;
 	margin-bottom: 24px;
 }
 .failure-info p,
-.failure ul li {
+.failure ul li,
+.success-info p,
+.success ul li {
 	font-size: 16px;
 	color: #444343;
 	margin-bottom: 10px;
