@@ -9,7 +9,7 @@
 	background-color: #f15b22;
 	border-radius: 5px;
 	border: 0;
-	font-weight: 400;
+	font-weight: 600;
 }
 
 /* header section */
@@ -110,7 +110,7 @@
 	background-color: #fff;
 	border-radius: 5px;
 	border: 0;
-	font-weight: 400;
+	font-weight: 600;
 	margin-left: 60px;
 	margin-bottom: 50px;
 }
@@ -135,17 +135,27 @@
 .future-description p {
 	padding: 14px 0;
 }
-
+.future-icons img {
+	padding-top: 10px;
+	padding-right: 10px;
+}
 .subscribe h3 {
 	font-weight: 600;
 	font-size: 25px;
 	padding: 10px 0;
 }
 input[type='email'] {
-	padding: 10px;
+	padding: 15px 10px;
 	border-radius: 5px;
 	border: 1px solid #fff;
 	background-color: #000;
 	color: #fff;
 	font-weight: 600;
+	width: 325px;
+}
+
+.footer .secondary-btn {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 10px;
 }
